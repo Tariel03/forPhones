@@ -1,0 +1,74 @@
+a:hover,.message-btn:hover{
+    background-color: red;
+    border-radius: 10%;
+
+}
+.back-photo{
+    background-image: url("photos/header-bg.jpg");
+    height: 700px;
+}
+.text-block{
+    background-color:#e6e6e6;
+}
+.text-blockk{
+    background-color: #e6e6e6;
+}
+.iphone{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.iphone:hover{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.photo-container:hover{
+    background-color:#ff6666;
+    color:white;
+    border-radius: 10%;
+}
+.text-conter:hover{
+    color:white
+}
+.red-block{
+    height: 300px;
+}
+.block-icons{
+    height: 200px;
+}
+.col-photo{
+    background-image: "photos/iPhone 14 Pro - 1.png";
+}
+.message-btn{
+    background-image: url("photos/messages.png");
+    width:32px;
+    height: 32px;
+    border-style: none;
+}
+.element-group{
+    list-style-type: circle red;
+    list-style: circle red;
+}
+
+.phone-row{
+    border-bottom: solid grey 0.5px;
+}
+.element-group{
+    list-style-image: url("photos/circle.png");
+}
+.element-lii{
+    list-style-image: url("photos/link.png");
+}
+
+
+@media (min-width: 1200px) {
+    .responsive-font-example {
+      font-size: 80px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .responsive-font-example {
+      font-size: 30px;
+    }
+  }

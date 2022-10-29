@@ -1,0 +1,14 @@
+[{
+    "name":"Tariel",
+    "age":19,
+    "isProgrammer":true,
+    "hobbies":["tv","programming"],
+    "friend":[
+        {
+            "name":"Erbol",
+            "age":18,
+            "isProgrammer":true,
+            "hobbies":["programming","shows"]
+        }
+    ]
+}]
